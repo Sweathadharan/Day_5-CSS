@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding: 0;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: poppins;
+    background: rgb(220, 200, 216);
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+ul li{
+    min-width: 130px;
+    /* font-weight: 900; */
+    padding: 15px;
+    margin:0 15px;
+    color: darkolivegreen;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: -7px -7px 20px 0 rgba(255,255,255,0.7),
+    7px 7px 20px 0 rgba(0,0,0,0.2);
+}
+ul li:hover{
+    cursor:pointer;
+    box-shadow: inset -7px -7px 20px 0 rgba(255,255,255,0.7),
+                inset 7px 7px 20px 0 rgba(0,0,0,0.2);
+}
